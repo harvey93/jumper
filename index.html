@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script src="test.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/canvas.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/modal.css">
+  </head>
+  <body class='body'>
+    <script type="application/javascript" src="lib/bundle.js"></script>
+    <div id="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      Game Over
+    </div>
+    <h1 class='title'>Aladdin: Desert Adventures</h1>
+    <canvas id="canvas" width="750" height="500"></canvas>
+
+<div class="button-time">
+
+    <button onclick="document.getElementById('modal-div').style.display='block'"
+class="button">Instructions</button>
+
+<div class="time-div">
+  <h1>Time:</h1>
+  <h1 id='timer'>
+  0
+  </h1>
+</div>
+</div>
+
+<!-- The Modal -->
+<div id="modal-div" >
+  <div >
+    <div >
+      <span onclick="document.getElementById('modal-div').style.display='none'"
+      class="x-button">&times;</span>
+      <p>Press L to Start</p>
+      <p>Press W to Jump And S to Duck</p>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>

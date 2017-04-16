@@ -1,0 +1,27 @@
+{
+  "name": "harvey93.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "projectile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "webpack": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harvey93/harvey93.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harvey93/harvey93.github.io/issues"
+  },
+  "homepage": "https://github.com/harvey93/harvey93.github.io#readme"
+}
